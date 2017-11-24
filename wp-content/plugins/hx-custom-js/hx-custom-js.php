@@ -4,6 +4,8 @@ Plugin Name: Helptux Custom JS
 Plugin URI: https://github.com/pieterdp/wordpress-hx-custom-js
 Version: 0.1.0
 Description: Add custom JS snippets to your Wordpress blog.
+Author: Pieter De Praetere
+License: GPL3
  */
 
 include_once(plugin_dir_path(__FILE__).'/hx-admin.php');
