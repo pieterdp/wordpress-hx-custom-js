@@ -17,7 +17,7 @@ function hx_custom_js_code_s_cb () {
 
 function hx_custom_js_code_f_cb () {
     $s = get_option('hx_custom_js_code');
-    $c = '<textarea class="widefat" name="hx_custom_js_code" id="hx_custom_js_code" rows="3" cols="100">%s</textarea>';
+    $c = '<textarea class="widefat" name="hx_custom_js_code" id="hx_custom_js_code" rows="15" cols="100">%s</textarea>';
     echo sprintf($c, $s);
 }
 
